@@ -1,1 +1,67 @@
 @import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+	background-color: transparent;
+	border: none;
+	margin-bottom: .8em;
+	padding: 1.5em 2em 0 2em;
+	.navbar-toggle {
+		background-color: #3580BB;
+		.icon-bar {
+			background-color: #fff;
+		}
+	}
+	.navbar-brand {
+		font-size: 2em;
+		font-weight: bold;
+		color: #3580BB;
+			span {
+				color: #5C636E;
+		}
+   }
+   .navbar-form button {
+   	background-color: #3580BB;
+   	color: #fff;
+   }
+}
+#landing {
+	background-image: url('../images/hero-image.jpg');
+	background-size: cover;
+	height: 25.25em;
+	color: #fff;
+	padding-top: 5em;
+	h1 {
+		font-size: 4em;
+	}
+	p {
+		font-size: 1.8em;
+	}
+}
+.download {
+	color: #9C9BA0;
+	padding: 0 5em;
+	h3 {
+		font-weight: bold;
+	}
+	p {
+		line-height: 1.7em;
+	}
+	button {
+		padding: .5em 3em;
+	}
+}
+@media screen and (min-width:48em) {
+	#landing{
+		h1 {
+			font-size: 3em;
+		}
+		p {
+			font-size: 1.5em;
+		}
+	}
+}
+
