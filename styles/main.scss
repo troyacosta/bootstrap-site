@@ -137,12 +137,16 @@ img {
     }
 }
 
-@media screen and (min-width:62.6em) {
-    #landing {}
-    h1 {
-        font-size: 5em;
-    }
-    .download button {
-        margin-top: 2em;
+@media screen and (min-width:62em) {
+    #landing {
+        h1 {
+            font-size: 4em;
+        }
+        p {
+            font-size: 2em;
+        }
+        .download button {
+            margin-top: 2em;
+        }
     }
 }

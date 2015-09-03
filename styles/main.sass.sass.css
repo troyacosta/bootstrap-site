@@ -101,8 +101,10 @@ img {
   .pics h3 {
     font-size: 1.35em; } }
 
-@media screen and (min-width: 62.6em) {
-  h1 {
-    font-size: 5em; }
-  .download button {
+@media screen and (min-width: 62em) {
+  #landing h1 {
+    font-size: 4em; }
+  #landing p {
+    font-size: 2em; }
+  #landing .download button {
     margin-top: 2em; } }
