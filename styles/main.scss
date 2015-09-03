@@ -55,54 +55,59 @@ body {
         width: 16em;
     }
 }
- hr {
-        color: #A0A0A0;
-    }
 
-.info, .pics, .welcome {
+hr {
+    color: #A0A0A0;
+}
+
+.info,
+.pics,
+.welcome {
     margin: 0 3em;
 }
 
 .well {
     background-color: #F0F0F0;
     color: #A3A3A3;
-
     h3 {
         font-weight: bold;
     }
 }
+
 .pics {
-	h3 {
-		color: #A6A6A6;
-	}
+    h3 {
+        color: #A6A6A6;
+    }
 }
 
 img {
     width: 100%;
     height: 100%;
 }
+
 .welcome {
-	color: #A6A6A6;
-	h1 {
-		font-weight: bold;
-	}
+    color: #A6A6A6;
+    h1 {
+        font-weight: bold;
+    }
 }
+
 .footer {
     background-color: #3A414B;
     color: #9299A2;
     margin-top: 3em;
     padding: 0 0 2em 2em;
     h3 {
-    	font-weight: bold;
+        font-weight: bold;
     }
     .underline p {
-    	text-decoration: underline;
+        text-decoration: underline;
     }
 }
 
 @media screen and (min-width:48em) {
     #landing {
-    	padding: 8em 3em 0 0;
+        padding: 8em 3em 0 0;
         h1 {
             font-size: 3em;
             margin-top: 0;
@@ -112,28 +117,32 @@ img {
         }
     }
     .download {
-    	padding-top: 2em;
-    	h3 {
-    		margin: 0 0 1em 0;
-    		line-height: 1.5em;
-    	}
+        padding-top: 2em;
+        h3 {
+            margin: 0 0 1em 0;
+            line-height: 1.5em;
+        }
     }
     .well {
-    	width: 33%;
-    	box-sizing: border-box;
-    	border: 1em solid #fff;
-    	padding-top: 0;
-    	h3 {
-    		font-size: 1.2em;
-    	}
+        width: 33%;
+        box-sizing: border-box;
+        border: 1em solid #fff;
+        padding-top: 0;
+        h3 {
+            font-size: 1.2em;
+        }
     }
     .pics h3 {
-    	font-size: 1.35em;
+        font-size: 1.35em;
     }
-
 }
+
 @media screen and (min-width:62.6em) {
-	.download button {
-		margin-top: 2em;
-	}
+    #landing {}
+    h1 {
+        font-size: 5em;
+    }
+    .download button {
+        margin-top: 2em;
+    }
 }

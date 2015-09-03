@@ -45,7 +45,9 @@ body {
 hr {
   color: #A0A0A0; }
 
-.info, .pics, .welcome {
+.info,
+.pics,
+.welcome {
   margin: 0 3em; }
 
 .well {
@@ -100,5 +102,7 @@ img {
     font-size: 1.35em; } }
 
 @media screen and (min-width: 62.6em) {
+  h1 {
+    font-size: 5em; }
   .download button {
     margin-top: 2em; } }
